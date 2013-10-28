@@ -7,7 +7,7 @@ gem 'rails', '3.2.13'
 
 #Remember to switch between having developoment and production gems installed.
 
-group :developoment, :test do
+group :developoment do
 gem 'sqlite3', '1.3.8'
 end
 
